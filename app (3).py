@@ -18,7 +18,7 @@ st.set_page_config(
 # LOAD TRAINED MODEL
 # ============================================================
 
-model = joblib.load("obesity_model.pkl")
+model = joblib.load("best_obesity_model.pkl")
 scaler = joblib.load("scaler.pkl")
 label_encoder = joblib.load("label_encoder.pkl")
 feature_columns = joblib.load("feature_columns.pkl")
